@@ -1,0 +1,80 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="btn_getLocation" hover-class="other-button-hover"> {{city}} </button>
+<div class='activity-list'>
+  <div class='activity-button' >
+    <image class='activity-image' src='../img/timg.jpeg' bindtap="activityEvent" data-evt="1" />
+  <span class='activity-text'>酒店信息</span>
+  </div>
+  <div class='activity-button' >
+  <image class='activity-image' src='../img/timg.jpeg' bindtap="activityEvent" data-evt="1" />
+  <span class='activity-text'>酒店信息</span>
+  </div>
+  <div class='activity-button' >
+  <image class='activity-image' src='../img/timg.jpeg'  bindtap="activityEvent" data-evt="1" />
+  <span class='activity-text'>酒店信息</span>
+  </div>
+</div>
+<div class='cake-list'>
+  <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+    <span class='cake-text'>地址</span>
+  </div>
+  <div class='cake-info'>
+   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>地址</span>
+  </div>
+   <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>产品展示</span>
+   </div>
+</div>
+<div class='cake-list'>
+  <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+    <span class='cake-text'>地址</span>
+  </div>
+  <div class='cake-info'>
+   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>地址</span>
+  </div>
+   <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>产品展示</span>
+   </div>
+</div>
+<div class='cake-list'>
+  <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+    <span class='cake-text'>地址</span>
+  </div>
+  <div class='cake-info'>
+   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>地址</span>
+  </div>
+   <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>产品展示</span>
+   </div>
+</div>
+<div class='cake-list'>
+  <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+    <span class='cake-text'>地址</span>
+  </div>
+  <div class='cake-info'>
+   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>地址</span>
+  </div>
+   <div class='cake-info'>
+    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
+  <span class='cake-text'>产品展示</span>
+   </div>
+</div>

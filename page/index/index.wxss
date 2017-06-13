@@ -1,0 +1,50 @@
+/* page/index/index.wxss */
+.swpier{  
+  height:400rpx;  
+  width:100%  
+}  
+.swiper image {  
+  height: 100%;  
+  width: 100%;  
+}  
+.slide-image {
+  width: 100%;
+}
+.activity-button {
+  display: inline-block;
+}
+.activity-list{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.activity-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.activity-text {
+  margin-top: 10px;
+  display: block;
+}
+.cake-list {
+ margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.cake-info {
+  display: inline-block;
+  text-align: center;
+}
+.cake {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.cake-text {
+  margin-top: 10px;
+  display: block;
+}

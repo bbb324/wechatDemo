@@ -36,45 +36,5 @@
   <span class='cake-text'>产品展示</span>
    </div>
 </div>
-<div class='cake-list'>
-  <div class='cake-info'>
-    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-    <span class='cake-text'>地址</span>
-  </div>
-  <div class='cake-info'>
-   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-  <span class='cake-text'>地址</span>
-  </div>
-   <div class='cake-info'>
-    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-  <span class='cake-text'>产品展示</span>
-   </div>
-</div>
-<div class='cake-list'>
-  <div class='cake-info'>
-    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-    <span class='cake-text'>地址</span>
-  </div>
-  <div class='cake-info'>
-   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-  <span class='cake-text'>地址</span>
-  </div>
-   <div class='cake-info'>
-    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-  <span class='cake-text'>产品展示</span>
-   </div>
-</div>
-<div class='cake-list'>
-  <div class='cake-info'>
-    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-    <span class='cake-text'>地址</span>
-  </div>
-  <div class='cake-info'>
-   <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-  <span class='cake-text'>地址</span>
-  </div>
-   <div class='cake-info'>
-    <image class='cake' src='../img/cake.png' bindtap="enterLocation"/>
-  <span class='cake-text'>产品展示</span>
-   </div>
-</div>
+
+
